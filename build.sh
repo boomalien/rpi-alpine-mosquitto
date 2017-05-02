@@ -1,3 +1,3 @@
 #!/bin/bash
 
-$docker build -t boomalien/rpi-alpine-mosquitto .
+docker build -t boomalien/rpi-alpine-mosquitto .
