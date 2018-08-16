@@ -1,4 +1,5 @@
-FROM multiarch/alpine:arm64-v3.8
+FROM arm64v8/alpine:latest
+COPY qemu-aarch64-static /usr/bin/
 LABEL Description="Eclipse Mosquitto MQTT Broker. This Image uses the hypriot/rpi-alpine as base image"
 
 RUN apk update && \
